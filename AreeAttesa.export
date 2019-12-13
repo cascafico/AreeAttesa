@@ -1,0 +1,12 @@
+    {
+      "id"  : {{(cells["id"].value)}},
+      "lat" : {{(cells["lat"].value)}},
+      "lon" : {{(cells["lon"].value)}},
+      "tags" : {
+               "name" : {{jsonize(cells["name"].value)}},
+               "ref" : {{jsonize(cells["ref"].value)}},
+               "emergency" : "assembly_point",
+               "assembly_point:earthquake" : "yes"
+               }
+    }
+

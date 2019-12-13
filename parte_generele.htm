@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Piano Regionale delle Emergenze di Protezione Civile</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">  <link rel="icon" type="image/png" href="/assets/xfavicon-196x196-6976181670e8e861cdb3af9dd96456d12b321c445c02e5b7ff37a5dcbd46ffe0.png" sizes="196x196">
+  <link rel="icon" type="image/png" href="/assets/xfavicon-128x128-ee26ae5a40f84e39518c0fc0d89d4f332057ec781b9020327c8f328dc79cf574.png" sizes="128x128">
+  <link rel="icon" type="image/png" href="/assets/xfavicon-96x96-b26c3f5a26584d4b0859f7c8b6444f299e714cd2541a3ce81d1b636bb494c367.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/assets/xfavicon-32x32-d43967cf429d6a46e816e7f21bbfac757087b8dd13d97c2a15dfbc9979cd7cf2.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/assets/xfavicon-16x16-1dc9843321725f35105c5ca214d9ba3d9b266eea36e2214591fd3f70400ab56c.png" sizes="16x16">
+  <link rel="stylesheet" media="all" href="/ol/ol.css" />
+  <link rel="stylesheet" media="all" href="/assets/application-cf5f9dd78b1f58890c31e62703e8c1b399dcc9c5975a0a371020e3cd4a66a7f5.css" />
+  <script src="/ol/ol-debug.js"></script>
+  <script src="/assets/application-96f4206fe58c6d659e8b050fa113d36e3e0eda3bb1b19246212a7917f66df8fe.js"></script>
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="E9TDZ4mgO3LPXXlafadVydnx8GCsmBOX8mwon5oXg9Hu/k4KbbzmfcYr3C3owtEa+sR2I+9QGQSp48fCqwENyg==" />
+</head>
+<body>
+
+  <nav class="navbar navbar-default navbar-fixed-top" id="top_menu">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Apri menù</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/"><img src="/assets/logo-pc-4cdf4eaf9dfae33211a9d1d796f48d853f1c4ee2922b1201623c6232f2eebbef.svg" alt="Logo pc" /> Piano <span class="hidden-xs">Regionale</span> delle Emergenze</a>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="https://pianiemergenza.protezionecivile.fvg.it/carto ">Cartografia</a></li>
+          <li><a href="https://auth.protezionecivile.fvg.it/login?service=https://pianiemergenza.protezionecivile.fvg.it/municipalities/30035/sections/a_parte_generale ">Accesso per operatori</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </nav>
+
+  <nav class="navbar navbar-default navbar-fixed-top" id="sections_menu">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar_sections" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Apri menù sezioni</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://pianiemergenza.protezionecivile.fvg.it/municipalities/30035/sections">Enemonzo</a>
+    </div>
+    <div id="navbar_sections" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" class="dropdown">
+          <a class="dropdown-toggle" style="background-color:#F06D16; color: #fff" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+            A - Parte generale <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#a_dati_generali">Dati generali</a></li>
+            <li><a href="#a_sistema_comunicazione">Sistema di comunicazione in emergenza</a></li>
+            <li><a href="#a_coc">Sede del centro operativo comunale</a></li>
+            <li><a href="#a_popolazione">Popolazione</a></li>
+            <li><a href="#a_pericolosita">Pericolosità sul territorio</a></li>
+            <li><a href="#a_punti_di_presidio">Punti di presidio territoriale</a></li>
+            <li><a href="#a_rischio_industriale">Rischio Industriale</a></li>
+            <li><a href="#a_piani_tematici">Piani tematici</a></li>
+            <li><a href="#a_indicatori">Indicatori di evento</a></li>
+            <li><a href="#a_aree_emergenza">Aree di emergenza</a></li>
+            <li><a href="#a_edifici_strategici">Edifici strategici</a></li>
+            <li><a href="#a_edifici_rilevanti">Edifici rilevanti</a></li>
+            <li><a href="#a_gruppo_comunale">Gruppo comunale di Protezione Civile</a></li>
+            <li><a href="#a_fonti">Fonti utilizzate</a></li>
+          </ul>
+        </li>
+        <li><a style="color:#0996DC" href="https://pianiemergenza.protezionecivile.fvg.it/municipalities/30035/sections/b_lineamenti_pianificazione">B - Lineamenti della pianificazione</a></li>
+        <li><a style="color:#3DAE48" href="https://pianiemergenza.protezionecivile.fvg.it/municipalities/30035/sections/c_modello_intervento">C - Modello d&#39;intervento</a></li>
+        <li><a href="https://pianiemergenza.protezionecivile.fvg.it/municipalities/30035/sections/attachments">Allegati</a></li>
+        <li><a href="https://pianiemergenza.protezionecivile.fvg.it/municipalities/30035/sections.pdf">Scarica PDF</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</nav>
+
+
+<div class="main_container" id="section_container">
+  <div class="pe_section">
+    <div class="container">
+      <h1 style="border-left-color: #F06D16">A - Parte generale</h1>
+      <div class='dashed_border' style='background-color: #F06D16'></div><h2 id='a_dati_generali'>Dati generali</h2><table class="table table-striped full_width">
+  <tr><td>Comune</td><td><strong>Enemonzo</strong></td></tr>
+  <tr><td>Codice ISTAT</td><td><strong>030035</strong></td></tr>
+  <tr><td>Prefettura - UTG</td><td><strong>Udine</strong></td></tr>
+  <tr><td>UTI</td><td><strong>Unione della Carnia</strong></td></tr>
+  
+  <tr><td>Sindaco</td><td><strong>FRANCO MENEGON</strong></td></tr>
+  
+  <tr><td>Indirizzo Municipio</td><td><b>VIA BORTA 2</b></td></tr>
+  
+  <tr><td>Sito web</td><td><a href="http://www.comune.enemonzo.ud.it">http://www.comune.enemonzo.ud.it</a></td></tr>
+  <tr><td>PEC</td><td><strong>comune.enemonzo@certgov.fvg.it</strong></td></tr>
+  
+  <tr><td>Distretto di Protezione Civile</td><td><strong>VAL TAGLIAMENTO</strong> (comune capofila)</td></tr>
+  
+  <tr><td>Zona di allerta per il rischio meteorologico,<br>idrogeologico e idraulico</td><td><strong>FVG-B</strong></td></tr>
+</table>
+<img class="left" src="/pages/18/images/625?height=0&amp;width=0" alt="625?height=0&amp;width=0" />
+<img class="right" src="/pages/18/images/626?height=0&amp;width=0" alt="626?height=0&amp;width=0" />
+<div style="clear: both;"></div>
+  
+<div class='dashed_border' style='background-color: #F06D16'></div><h2 id='a_sistema_comunicazione'>Sistema di comunicazione in emergenza</h2><h3 class="code_title">Numeri di emergenza</h3>
+<table class="table table-striped">
+  <tr><td style="width:350px;"><strong>Numero Unico Emergenza</strong></td><td><strong>112</strong></td></tr>
+  <tr><td>Protezione Civile della Regione</td><td><strong>800 500 300</strong></td></tr>
+</table>
+
+
+
+
+
+
+
+<div class='dashed_border' style='background-color: #F06D16'></div><h2 id='a_coc'>Sede del centro operativo comunale</h2><h4>Municipio - Uffici sede COC</h4><p>Enemonzo capoluogo - Via Borta n.2</p><p>In caso di evento sismico il COC viene installato presso la Sede Comunale di Protezione Civile in via Borta n. 68 a Enemonzo capoluogo.</p>
+<div class='dashed_border' style='background-color: #F06D16'></div><h2 id='a_popolazione'>Popolazione</h2><p>Dati dal 15° censimento della popolazione e delle abitazioni del 2011</p>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th></th>
+      <th>Centri abitati</th>
+      <th>Nuclei abitati</th>
+      <th>Case sparse</th>
+      <th>Totale</th>
+    </tr>    
+  </thead>
+  <tbody>
+    
+    
+    <tr>
+      <td>
+        Popolazione residente
+      </td>
+      <td>
+        1307
+      </td>
+      <td>
+        
+      </td>
+      <td>
+        44
+      </td>
+      <td>
+        <strong>1351</strong>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <td>
+        Numero di famiglie
+      </td>
+      <td>
+        592
+      </td>
+      <td>
+        
+      </td>
+      <td>
+        16
+      </td>
+      <td>
+        <strong>608</strong>
+      </td>
+    </tr>
+    
+    
+    
+    <tr>
+      <td>
+        Numero di abitazioni
+      </td>
+      <td>
+        833
+      </td>
+      <td>
+        
+      </td>
+      <td>
+        29
+      </td>
+      <td>
+        <strong>862</strong>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <td>
+        Numero di edifici
+      </td>
+      <td>
+        687
+      </td>
+      <td>
+        
+      </td>
+      <td>
+        29
+      </td>
+      <td>
+        <strong>716</strong>
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <td>
+        Numero di edifici residenziali
+      </td>
+      <td>
+        625
+      </td>
+      <td>
+        
+      </td>
+      <td>
+        27
+      </td>
+      <td>
+        <strong>652</strong>
+      </td>
+    </tr>
+    
+  </tbody>
+</table>
+
+<div class='dashed_border' style='background-color: #F06D16'></div><h2 id='a_pericolosita'>Pericolosità sul territorio</h2><h3>Pericolosità sismica</h3>
+<p>È riportata la classificazione dei comuni effettuata con DGR n. 845 del 06.05.2010 ai sensi della LR 16/2009 , art 3 , comma 2 , lett a) (classificazione delle zone sismiche e indicazione delle aree di alta e bassa sismicità) </p>
+<p>Zona Sismica: <strong>2</strong></p>
+<p>
+  La pericolosità sismica è ricavata dallo studio effettuato da OGS, Università di Trieste e di Udine per conto della PCR nel 2006 ed è rappresentata attraverso la mappatura delle accelerazioni di picco alla superficie libera del suolo, tenendo quindi in considerazione anche la natura dei terreni. Ulteriori approfondimenti sulla pericolosità possono essere ricavati dagli studi di microzonazione sismica se allegati al piano.
+</p>
+<p>Accelerazione orizzontale di picco espressa in g (1 g = 9.81 m/s<sup>2</sup>)</p>
+<ul class="plain_list"><li><img class="legend_icon" src="/legend/20/pericolosita_sismica_1.png" alt="Pericolosita sismica 1" /> 0.08 - 0.16</li><li><img class="legend_icon" src="/legend/20/pericolosita_sismica_2.png" alt="Pericolosita sismica 2" /> 0.16 - 0.24</li><li><img class="legend_icon" src="/legend/20/pericolosita_sismica_3.png" alt="Pericolosita sismica 3" /> 0.24 - 0.32</li><li><img class="legend_icon" src="/legend/20/pericolosita_sismica_4.png" alt="Pericolosita sismica 4" /> 0.32 - 0.40</li><li><img class="legend_icon" src="/legend/20/pericolosita_sismica_5.png" alt="Pericolosita sismica 5" /> 0.40 - 0.48</li><li><img class="legend_icon" src="/legend/20/pericolosita_sismica_6.png" alt="Pericolosita sismica 6" /> 0.48 - 0.56</li><li><img class="legend_icon" src="/legend/20/pericolosita_sismica_7.png" alt="Pericolosita sismica 7" /> > 0.56</li></ul><img header="false" class="full_width" src="/pages/18/images/2510?height=0&amp;width=0" alt="2510?height=0&amp;width=0" />
+
+
+
+<h3>Tipologia dissesti geologici</h3>
+<p>
+  Si tratta delle aree di dissesto geologico ricavate dalla "proposta di perimetrazione e classificazione delle aree in relazione alla pericolosità idraulica e geologica" predisposta dai servizi geologico e idraulica della Direzione centrale ambiente e LL.PP. per finalità connesse con i lavori delle conferenze programmatiche relative ai PAI (Piano stralcio per l’Assetto Idrogeologico - art.68 DLgs 152/2006) e non hanno pertanto valore ufficiale ai sensi della normativa vigente in materia di difesa del suolo.
+</p>
+<ul class="plain_list"><li><img class="legend_icon" src="/legend/20/dissesti_geologici_1.png" alt="Dissesti geologici 1" /> Crollo/Ribaltamento</li><li><img class="legend_icon" src="/legend/20/dissesti_geologici_2.png" alt="Dissesti geologici 2" /> Scivolamento rotazionale/traslativo</li><li><img class="legend_icon" src="/legend/20/dissesti_geologici_5.png" alt="Dissesti geologici 5" /> Colamento rapido</li><li><img class="legend_icon" src="/legend/20/dissesti_geologici_6.png" alt="Dissesti geologici 6" /> Colamento lento</li><li><img class="legend_icon" src="/legend/20/dissesti_geologici_7.png" alt="Dissesti geologici 7" /> Complesso</li><li><img class="legend_icon" src="/legend/20/dissesti_geologici_10.png" alt="Dissesti geologici 10" /> Sprofondamenti</li><li><img class="legend_icon" src="/legend/20/dissesti_geologici_11.png" alt="Dissesti geologici 11" /> Frane superficiali diffuse</li></ul><img header="false" class="full_width" src="/pages/18/images/2369?height=0&amp;width=0" alt="2369?height=0&amp;width=0" />
+
+
+
+
+<h3>Pericolosità idraulica</h3>
+<p>
+  Le informazioni relative alle aree di pericolosità idraulica sono derivate principalmente dai PAI dei bacini  idrografici di interesse nazionale, interregionale e regionale approvati e/o in corso di redazione e/o aggiornamento (Progetti, Varianti) ai sensi della normativa nazionale (DLgs 152/2006) e/o di quella regionale (LR 16/2002), i dati sono soggetti a periodici aggiornamenti.
+</p><ul class="plain_list"><li><img class="legend_icon" src="/legend/20/pericolosita_idraulica_p1.png" alt="Pericolosita idraulica p1" /> Pericolosità bassa</li><li><img class="legend_icon" src="/legend/20/pericolosita_idraulica_p2.png" alt="Pericolosita idraulica p2" /> Pericolosità media</li><li><img class="legend_icon" src="/legend/20/pericolosita_idraulica_p3.png" alt="Pericolosita idraulica p3" /> Pericolosità alta</li><li><img class="legend_icon" src="/legend/20/pericolosita_idraulica_pf.png" alt="Pericolosita idraulica pf" /> Alveo</li></ul><img header="false" class="full_width" src="/pages/18/images/2112?height=0&amp;width=0" alt="2112?height=0&amp;width=0" />
+
+
+
+
+
+
+<h3>Pericolosita valanghiva</h3>
+<p>Sono riportate le aree individuate nella Carta Localizzazione Pericolosità Valanghe (CLPV) redatta dall’ufficio valanghe regionale. Sono raffigurate due tipologie di aree che rappresentano rispettivamente la massima espansione areale dei siti valanghivi come rilevati, sul campo o da notizie storiche, sul territorio montano della Regione, e la massima espansione areale potenziale del sito valanghivo come rilevabile da fotointerpretazione.</p><ul class="plain_list"><li><img class="legend_icon" src="/legend/20/siti_valanghivi_1.png" alt="Siti valanghivi 1" /> Valanghe rilevate</li><li><img class="legend_icon" src="/legend/20/siti_valanghivi_2.png" alt="Siti valanghivi 2" /> Valanghe fotointerpretate</li></ul><img header="false" class="full_width" src="/pages/18/images/1934?height=0&amp;width=0" alt="1934?height=0&amp;width=0" />
+
+
+
+
+<h3>Pericolosita incendi boschivi</h3>
+<p>Si tratta delle aree definite nel Piano Regionale di Difesa del Patrimonio Forestale 1997-1999 (DPG n. 0136 del 17/04/1998).</p><ul class="plain_list"><li><img class="legend_icon" src="/legend/20/rischio_incendi_alto.png" alt="Rischio incendi alto" /> Pericolosità alta</li><li><img class="legend_icon" src="/legend/20/rischio_incendi_basso.png" alt="Rischio incendi basso" /> Pericolosità bassa</li><li><img class="legend_icon" src="/legend/20/rischio_incendi_medio.png" alt="Rischio incendi medio" /> Pericolosità media</li></ul><img header="false" class="full_width" src="/pages/18/images/2233?height=0&amp;width=0" alt="2233?height=0&amp;width=0" />
+
+
+
+<div class='dashed_border' style='background-color: #F06D16'></div><h2 id='a_punti_di_presidio'>Punti di presidio territoriale</h2>
+
+<div class='dashed_border' style='background-color: #F06D16'></div><h2 id='a_rischio_industriale'>Rischio Industriale</h2>
+<p>Non presente</p>
+
+<div class='dashed_border' style='background-color: #F06D16'></div><h2 id='a_piani_tematici'>Piani tematici</h2><p>
+  Si tratta di piani a carattere sovracomunale redatti in base a specifiche norme di settore o riguardanti specifiche tipologie di fenomeni la cui gestione fa riferimento a scenari di area vasta, con coinvolgimento del livello regionale ed in subordine quello sub-regionale e locale. Rientrano in tali tipologie i Piani della Sanità, Piani dei trasporti (strada, rotaia, aereo, mare e laguna, piani neve), Piani per Antincendio boschivo, Ricerca persone, Servizio di Piena, Radioattività, Emergenze umanitarie, Difesa – Sicurezza e le procedure e  piani di emergenza relative alle grandi Dighe e agli invasi artificiali.
+</p>
+
+<h3 class="code_title">Radioattività</h3>
+
+  <h4>Prov.UD - Piano di emergenza provinciale per il trasporto di materie radioattive e fissili</h4>
+  
+
+  
+  <p style="font-style: italic;">Fonte: Prefettura di Udine</p>
+  
+  
+
+  <h4>Prov.UD - Piano d'intervento messa in sicurezza sorgenti orfane radioattive</h4>
+  <p>Piano di intervento per la messa in sicurezza in caso di rinvenimento o di sospetto di presenza di sorgenti orfane nel territorio della provincia di Udine.</p>
+
+<p>Il piano, predisposto in ottemperanza del D. Lgs. n.52 del 6 febbraio 2007, prende in esame sia il possibile rinvenimento di sorgenti radioattive abbandonate o smarrite, sia il possibile rinvenimento di sorgenti a seguito di misurazione radiometrica effettuata su carichi di rottami o altri materiali metallici di risulta introdotti in Italia.</p>
+
+<p>Nel piano vengono previste le procedure operative da seguire da parte di tutti gli Enti coinvolti in una possibile gestione dell’emergenza, evidenziando le specifiche competenze in materia dei Vigili del Fuoco.</p>
+
+  
+  <p style="font-style: italic;">Fonte: Prefettura di Udine</p>
+  
+  
+  <p>Per maggiori informazioni: <a href="http://www.prefettura.it/udine/contenuti/13174.htm">http://www.prefettura.it</a></p>
+  
+
+  <h4>Prov.UD - Piano Emergenze Radiologiche</h4>
+  <p>Il Piano Provinciale è redatto al fine di definire – per lo scenario incidentale preso a riferimento dal Piano Nazionale, potenzialmente interessante il territorio di questa provincia (ossia, incidente a centrale nucleare transfrontaliera) – le procedure operative per la gestione del flusso delle informazioni tra i diversi soggetti coinvolti, l’attivazione e il coordinamento delle principali componenti locali del Servizio della protezione civile, in connessione con le sue componenti nazionali.</p>
+
+<p>Inoltre, il Piano Provinciale descrive il modello organizzativo per la gestione dell’emergenza con l’indicazione degli interventi prioritari da disporre a livello locale ai fini della massima riduzione degli effetti indotti sulla popolazione e sull’ambiente dall’emergenza radiologica.</p>
+
+<p>In conformità alle indicazioni tracciate nelle citate norme e nel Piano Nazionale, nel presente documento è delineata e definita l’architettura generale della pianificazione provinciale emergenziale che costituisce la cornice entro la quale devono essere mantenuti e riferiti i singoli piani procedurali di ogni ente, soggetto e amministrazione interessati alle attività di soccorso in caso di emergenza.</p>
+
+<p>Con riferimento, invece, agli aspetti specifici derivanti dal trasporto di materie radioattive e fissili, e dal rinvenimento di sorgenti orfane, si fa rinvio alle pianificazioni settoriali di protezione civile già approvate in questa provincia (rispettivamente, edizione n.1 del 24/07/2014, e edizione n.1 del 25/06/2008).</p>
+
+  
+  <p style="font-style: italic;">Fonte: Prefettura di Udine</p>
+  
+  
+  <p>Per maggiori informazioni: <a href="http://www.prefettura.it/udine/contenuti/448098.htm">http://www.prefettura.it</a></p>
+  
+
+  <h4>DPC-Piano nazionale delle misure protettive contro le emergenze radiologiche</h4>
+  <p>Il Piano Nazionale delle misure protettive contro le emergenze radiologiche individua e disciplina le misure necessarie per fronteggiare le conseguenze degli incidenti che avvengano in impianti nucleari di potenza ubicati al di fuori del territorio nazionale, tali da richiedere azioni di intervento coordinate a livello nazionale e che non rientrino tra i presupposti per l’attivazione delle misure di difesa civile di competenza del Ministero dell’interno.</p>
+
+<p>A tale scopo il Piano definisce le procedure operative per la gestione del flusso delle informazioni tra i diversi soggetti coinvolti, l’attivazione e il coordinamento delle principali componenti del Servizio nazionale della protezione civile, e descrive il modello organizzativo per la gestione dell’emergenza con l’indicazione degli interventi prioritari da disporre a livello nazionale ai fini della massima riduzione degli effetti indotti sulla popolazione italiana e sull’ambiente dall’emergenza radiologica.</p>
+
+  
+  <p style="font-style: italic;">Fonte: Dipartimento della Protezione Civile</p>
+  
+  
+  <p>Per maggiori informazioni: <a href="http://www.protezionecivile.gov.it/resources/cms/documents/Piano_nazionale_revisione_1marzo_2010.pdf">http://www.protezionecivile.gov.it</a></p>
+  
+
+
+<h3 class="code_title">Ricerca persone</h3>
+
+  <h4>Pref.UD - Piano Provinciale Ricerca persone scomparse</h4>
+  <p>Il presente Piano è finalizzato alla definizione dell’assetto organizzativo, a livello locale, dei ruoli operativi e delle attività connesse alle ricerche e soccorso al di fuori degli ambiti di competenza dell’Autorità Giudiziaria, attraverso:</p>
+
+<ul>
+  <li>l’attuazione di un sistema di allarme e di informazione indirizzato a tutti gli Enti competenti sul territorio;</li>
+  <li>l’adozione di procedure di intervento automatico e tempestivo, fin dal momento della segnalazione dell’avvenuta scomparsa, per realizzare la massima integrazione possibile dell’operato di tutte le componenti coinvolte nelle operazioni;</li>
+  <li>l’impiego di organi istituzionali e delle unità del volontariato specializzate disponibili.</li>
+</ul>
+
+
+  
+  <p style="font-style: italic;">Fonte: Prefettura U.T.G. di Udine</p>
+  
+  
+
+
+<h3 class="code_title">Sanità</h3>
+
+  <h4>ITA - Piano nazionale di preparazione e risposta ad una pandemia influenzale</h4>
+  <p>L’OMS raccomanda a tutti i Paesi di mettere a punto un Piano Pandemico e di aggiornarlo costantemente seguendo le linee guida concordate.</p>
+
+<p>Seguendo le indicazioni dell’OMS del 2005, emanate alla luce delle modifiche dell’assetto epidemico mondiale e delle nuove emergenze, il Piano aggiorna e sostituisce il precedente Piano Italiano Multifase per una Pandemia Influenzale, pubblicato nel 2002.</p>
+
+<p>Questo documento illustra, per ognuna delle sei fasi pandemiche dichiarate dall’OMS, il mandato per le Autorità Sanitarie, tenendo conto sia delle azioni sanitarie che di interventi che coinvolgono strutture non sanitarie.</p>
+
+<p>Il Piano rappresenta il riferimento nazionale in base al quale saranno messi a punto i Piani operativi regionali.
+<b>In allegato sono contenute le “Linee guida per la stesura dei Piani Pandemici Regionali”</b></p>
+
+<p>L’operatività del Piano sarà valutata con esercitazioni nazionali e regionali, da concordare fra CCM e Regioni ed altre istituzioni che avrebbero un ruolo in caso di pandemia.</p>
+
+<p>Il presente Piano è suscettibile di periodiche revisioni, al cambiamento della situazione epidemiologica.</p>
+
+  
+  <p style="font-style: italic;">Fonte: Ministero della Salute</p>
+  
+  
+  <p>Per maggiori informazioni: <a href="http://www.salute.gov.it/imgs/C_17_pubblicazioni_501_allegato.pdf">http://www.salute.gov.it</a></p>
+  
+
+  <h4>FVG - Strategie e misure di preparazione e risposta a una pandemia influenzale nella Regione Friuli Venezia Giulia</h4>
+  <p><b>Approvato con Deliberazione della Giunta regionale 28 maggio 2009, n. 1230.</b></p>
+
+<p>Dalla fine del 2003, da quando in Estremo Oriente i focolai di influenza aviaria da virus A/H5N1 sono divenuti endemici nei volatili ed il virus ha causato infezioni gravi anche nell’uomo, il rischio di una pandemia influenzale è diventato più concreto. Per questo motivo l’OMS ha raccomandato a tutti i Paesi di mettere a punto un Piano pandemico e di aggiornarlo costantemente seguendo linee guida concordate.</p>
+
+<p>La rapida espansione in molti Paesi, al momento della diffusione del presente documento, di casi di infezione nell’uomo dovuti ad un nuovo virus influenzale di tipo A/H1N1 mai rilevato prima, rende questo rischio ancora più concreto e vicino nel tempo.</p>
+
+<p>La diffusione di una pandemia influenzale potrebbe provocare una crisi del sistema sanitario a tutti i livelli e una situazione di emergenza in tutti i settori sociali.</p>
+
+<p>Per fronteggiare questo evento in modo coordinato e efficace è stato elaborato il documento “Strategie e misure di preparazione e risposta a una pandemia influenzale nella regione Friuli Venezia Giulia”.</p>
+
+<p>Per la sua elaborazione si è tenuto conto del Piano di preparazione a una possibile pandemia influenzale pubblicato dall’Organizzazione mondiale della sanità (WHO global Influenza preparedness plan, 5/2005) e suo successivo aggiornamento ( Pandemic influenza preparedness and response: a WHO guidance document, 2009), del “Piano nazionale di preparazione e risposta per una pandemia influenzale”, dei piani pandemici allestiti da altri Paesi e delle conoscenze attualmente disponibili.</p>
+
+<p>Il documento fornisce le linee guida regionali di risposta a una pandemia e rappresenta il documento di riferimento per la preparazione dei piani operativi aziendali. Il suo obiettivo è individuare e strutturare gli interventi di sanità pubblica e di tutela della popolazione da attuarsi nella Regione Friuli Venezia Giulia secondo sette azioni chiave:
+1. Sorveglianza
+2. Prevenzione e controllo infezione
+3. Trattamento e assistenza
+4. Servizi essenziali
+5. Comunicazione
+6. Formazione
+7. Valutazione
+E’ uno strumento di lavoro che andrà periodicamente aggiornato nei contenuti dal Gruppo di lavoro.</p>
+
+  
+  <p style="font-style: italic;">Fonte: Regione Autonoma Friuli Venezia Giulia</p>
+  
+  
+  <p>Per maggiori informazioni: <a href="http://www.regione.fvg.it/asp/delibereInternet/asp/internet/layout2008_2.asp?pag=1&tx_dataDel=&uf=&num=&key=influenza&submit4=vai+%3E">http://www.regione.fvg.it</a></p>
+  
+
+
+<h3 class="code_title">Antincendio boschivo</h3>
+
+  <h4>FVG - Piano regionale di difesa del patrimonio forestale dagli incendi per il periodo 1997-1999</h4>
+  <p><b>Approvato con Decreto del Presidente della Giunta 17 aprile 1998, n. 0136/Pres.</b></p>
+
+  
+  <p style="font-style: italic;">Fonte: Regione Autonoma Friuli Venezia Giulia</p>
+  
+  
+  <p>Per maggiori informazioni: <a href="http://www.regione.fvg.it/rafvg/cms/RAFVG/economia-imprese/agricoltura-foreste/foreste/FOGLIA36/">http://www.regione.fvg.it</a></p>
+  
+
+
+<h3 class="code_title">Dighe e invasi artificiali</h3>
+
+  <h4>Lumiei - Documento di protezione civile</h4>
+  <p>Il presente “Documento di protezione civile” stabilisce per la diga di Lumiei, secondo gli indirizzi di cui alla Direttiva P.C.M. 8 luglio 2014, le specifiche condizioni per l’attivazione del sistema di protezione civile e le comunicazioni e le procedure tecnico-amministrative da attuare nel caso di eventi, temuti o in atto, coinvolgenti l’impianto di ritenuta o una sua parte e rilevanti ai fini della sicurezza della diga e dei territori di valle (“rischio diga”) e nel caso di attivazione degli scarichi della diga stessa con portate per l’alveo di valle che possono comportare fenomeni di onda di piena e rischio di esondazione (“rischio idraulico a valle”). Il Documento di protezione civile concorre altresì a costituire il quadro di riferimento per la redazione del Piano di Emergenza Diga (PED) relativo ai territori che possono essere interessati dagli effetti derivanti dalla presenza della stessa.</p>
+
+  
+  
+
+
+
+
+
+<div class='dashed_border' style='background-color: #F06D16'></div><h2 id='a_indicatori'>Indicatori di evento</h2><h3 class="code_title">Rete idrometeorologica</h3>
+
+<table class='table table-striped'>
+  <thead>
+    <tr><th>Denominazione</th><th>Sensori</th><th>Coordinate</th></tr>
+  </thead>
+  <tbody>
+  
+    <tr>
+      <td>PCIV - Villa Santina T.Degano</td>
+      <td>Idrometro, Pioggia</td>
+      <td>12° 54' 24.01'' E, 46° 24' 41.00'' N</td>
+    </tr>
+  
+    <tr>
+      <td>H4 - Enemonzo</td>
+      <td>Umidità, Pressione, Altezza della neve, Temperatura, Pioggia, Vento vettoriale, Vento (direzione), Vento (intensità), Radiazione solare, Vento raffica (direzione), Vento raffica (intensità), Temperatura sotto suolo (10cm)</td>
+      <td>12° 52' 00.12'' E, 46° 24' 29.88'' N</td>
+    </tr>
+  
+  </tbody>
+</table>
+
+
+
+<h3 class="code_title">Rete sismica</h3>
+
+<div class='dashed_border' style='background-color: #F06D16'></div><h2 id='a_aree_emergenza'>Aree di emergenza</h2><h3>Area di attesa</h3><p>Sono destinate alla prima accoglienza della popolazione, dove riceverà le prime informazioni sull’evento ed i primi generi di conforto in attesa dell’attivazione delle aree di ricovero.</p><table class='table table-striped'><thead><tr><th>Denominazione</th><th>Indirizzo</th><th>Coordinate</th></tr></thead><tbody><tr><td>001 - Parcheggio fermata autobus</td><td>Enemonzo capoluogo - Via Nazionale sn</td><td>12° 52' 40.03'' E, 46° 24' 35.25'' N</td></tr><tr><td>002 - Piazza Borta</td><td>Enemonzo località Borta - Via Borta sn</td><td>12° 52' 42.71'' E, 46° 24' 42.36'' N</td></tr><tr><td>003 - Centro Sociale</td><td>Enemonzo - Via Nazionale n.18</td><td>12° 52' 55.99'' E, 46° 24' 36.66'' N</td></tr><tr><td>004 - Piazza Quinis</td><td>Enemonzo frazione Quinis - Via Nazionale sn</td><td>12° 53' 33.00'' E, 46° 24' 35.01'' N</td></tr><tr><td>005 - Località Narzans</td><td>Enemonzo frazione Esemon di Sotto - Via Narzans n. 2</td><td>12° 53' 57.73'' E, 46° 24' 37.79'' N</td></tr><tr><td>006 - Piazza Maiaso</td><td>Enemonzo frazione Maiaso - Via San Antonio sn</td><td>12° 52' 42.21'' E, 46° 25' 13.48'' N</td></tr><tr><td>007 - Ex scuole Colza</td><td>Enemonzo frazione Colza - Via Fresis n.2</td><td>12° 52' 10.80'' E, 46° 25' 19.95'' N</td></tr><tr><td>008 - Piazza via Principale Fresis</td><td>Enemonzo frazione Fresis - Via Principale n.</td><td>12° 51' 42.53'' E, 46° 25' 02.81'' N</td></tr></tbody></table>
+
+
+
+
+<div class='dashed_border' style='background-color: #F06D16'></div><h2 id='a_edifici_strategici'>Edifici strategici</h2>
+
+
+
+
+
+
+
+
+<h3>Sede di Protezione Civile</h3><table class='table table-striped'><thead><tr><th>Denominazione</th><th>Indirizzo</th><th>Coordinate</th></tr></thead><tbody><tr><td>001 - Sede Comunale</td><td>Borta - Via Borta n. 68</td><td>12° 52' 39.32'' E, 46° 24' 47.70'' N</td></tr></tbody></table>
+<h3>Municipio-Uffici comunali</h3><table class='table table-striped'><thead><tr><th>Denominazione</th><th>Indirizzo</th><th>Coordinate</th></tr></thead><tbody><tr><td>001 - Municipio - Uffici sede COC</td><td>Enemonzo capoluogo - Via Borta n.2</td><td>12° 52' 45.74'' E, 46° 24' 37.30'' N</td></tr></tbody></table>
+
+
+
+
+
+<div class='dashed_border' style='background-color: #F06D16'></div><h2 id='a_edifici_rilevanti'>Edifici rilevanti</h2><h3>Edifici Scolastici</h3><table class='table table-striped'><thead><tr><th>Denominazione</th><th>Indirizzo</th><th>Coordinate</th></tr></thead><tbody><tr><td>001 - SCUOLA DELL'INFANZIA DI ENEMONZO</td><td>Enemonzo - via delle Scuole</td><td>12° 52' 54.89'' E, 46° 24' 37.46'' N</td></tr><tr><td>002 - SCUOLA PRIMARIA DI ENEMONZO</td><td>Enemonzo - Via delle Scuole</td><td>12° 52' 54.88'' E, 46° 24' 36.39'' N</td></tr><tr><td>003 - SCUOLA PRIMARIA DI ENEMONZO</td><td> - Via Delle Scuole</td><td>12° 52' 56.29'' E, 46° 24' 37.68'' N</td></tr><tr><td>004 - SCUOLA PRIMARIA DI ENEMONZO</td><td>Enemonzo - via delle Scuole</td><td>12° 52' 57.96'' E, 46° 24' 38.10'' N</td></tr></tbody></table>
+
+
+
+<div class='dashed_border' style='background-color: #F06D16'></div><h2 id='a_gruppo_comunale'>Gruppo comunale di Protezione Civile</h2>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Carica</th>
+      <th>Nome</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    
+    <tr>
+      <td>
+        Coordinatore
+        
+      </td>
+      <td>MAURO DE PRATO</td>
+      
+    </tr>
+    
+    <tr>
+      <td>
+        Caposquadra
+        
+        tecnico logistico
+        AIB
+        
+      </td>
+      <td>SERGIO DE MARCHI</td>
+      
+    </tr>
+    
+    <tr>
+      <td>
+        Caposquadra
+        
+        tecnico logistico
+        AIB
+        
+      </td>
+      <td>FRANCO MAINARDIS</td>
+      
+    </tr>
+    
+    <tr>
+      <td>
+        Manager Formativo
+        
+      </td>
+      <td>MAURO DE PRATO</td>
+      
+    </tr>
+    
+    <tr>
+      <td>
+        Mediatore Tecnologico
+        
+      </td>
+      <td>MAURO DE PRATO</td>
+      
+    </tr>
+    
+  </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class='dashed_border' style='background-color: #F06D16'></div><h2 id='a_fonti'>Fonti utilizzate</h2><h3>Dati generali</h3>
+<p>Piano Regionale delle Emergenze - Protezione Civile della Regione</p>
+<p>ISTAT, censimento popolazione 2001</p>
+
+<h3>Sistema di comunicazione in emergenza</h3>
+<p>Piano Regionale delle Emergenze - Protezione Civile della Regione</p>
+<h3>Popolazione</h3>
+<p>ISTAT, censimento popolazione 2011</p>
+
+<h3>Pericolosità sul territorio</h3>
+<p>Sistema Informativo geografico Difesa Suolo</p>
+<p>Piano Regionale delle Emergenze - Protezione Civile della Regione</p>
+
+
+
+<h3>Indicatori di evento</h3>
+<p>Piano Regionale delle Emergenze - Protezione Civile della Regione</p>
+<p>Istituto Nazionale di Oceonografia e di Geofisica Sperimentale</p>
+<p>Università di Trieste, Dipartimento di Matematica e Geoscienze</p>
+
+<h3>Aree di emergenza</h3>
+<p>Piano Regionale delle Emergenze - Protezione Civile della Regione</p>
+
+<h3>Edifici strategici dello Stato</h3>
+<p>Ufficio Territoriale del Governo</p>
+<p>Piano Regionale delle Emergenze - Protezione Civile della Regione</p>
+
+<h3>Edifici strategici del sistema regionale</h3>
+<p>Piano Regionale delle Emergenze - Protezione Civile della Regione</p>
+
+
+
+    </div>
+  </div>
+
+</div>
+
+  
+  <footer id="footer" role="contentinfo" class="clearfix">
+    <div class="container">
+      <h5>PROTEZIONE CIVILE DELLA REGIONE</h5>
+      <p><em>Indirizzo</em> Via Natisone 43 - 33057 PALMANOVA (UD)</p>
+      <p><em>Telefono</em> <a href="tel:0432926111">0432 926111</a> (centralino)</p>
+      <p><em>Fax</em> 0432 926000</p>
+      <p><em>E-mail</em> <a href="mailto:segreteria@protezionecivile.fvg.it">segreteria@protezionecivile.fvg.it</a></p>
+      <p><em>Indirizzo di posta certificata</em> <a href="mailto:protezione.civile@certregione.fvg.it">protezione.civile@certregione.fvg.it</a></p>
+      <p class="footer-info-dark">© Copyright 2017 - Regione Autonoma Friuli Venezia Giulia. Protezione Civile della Regione / via Natisone 43, Palmanova (UD)</p>
+      <p>
+        <a href="/note-legali">Condizioni di utilizzo e note legali</a> /
+        <a href="//www.iubenda.com/privacy-policy/277572" class="iubenda-nostyle no-brand iubenda-embed" title="Privacy Policy">Privacy Policy</a> /
+        <a href="/crediti">Crediti</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

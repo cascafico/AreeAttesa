@@ -1,0 +1,186 @@
+[
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Coordinate using expression grel:replace(value, \" E\", \"\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Coordinate",
+    "expression": "grel:replace(value, \" E\", \"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Coordinate using expression grel:replace(value, \" N\", \"\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Coordinate",
+    "expression": "grel:replace(value, \" N\", \"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column Coordinate by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Coordinate",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": ",",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Coordinate 1 using expression grel:replace(value, \" \", \"\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Coordinate 1",
+    "expression": "grel:replace(value, \" \", \"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Coordinate 2 using expression grel:replace(value, \" \", \"\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Coordinate 2",
+    "expression": "grel:replace(value, \" \", \"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Coordinate 1 using expression grel:replace(value, \"''\", \"\\\"\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Coordinate 1",
+    "expression": "grel:replace(value, \"''\", \"\\\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Coordinate 2 using expression grel:replace(value, \"''\", \"\\\"\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Coordinate 2",
+    "expression": "grel:replace(value, \"''\", \"\\\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Coordinate 1 using expression grel:toNumber(value.match(/(\\d+)°(\\d+)'([\\d.]+)\\\"/)[0])+\ntoNumber(value.match(/(\\d+)°(\\d+)'([\\d.,]+)\\\"/)[1])/60.0+\ntoNumber(replace(value.match(/(\\d+)°(\\d+)'([\\d.]+)\\\"/)[2], \",\", \".\"))/3600.0",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Coordinate 1",
+    "expression": "grel:toNumber(value.match(/(\\d+)°(\\d+)'([\\d.]+)\\\"/)[0])+\ntoNumber(value.match(/(\\d+)°(\\d+)'([\\d.,]+)\\\"/)[1])/60.0+\ntoNumber(replace(value.match(/(\\d+)°(\\d+)'([\\d.]+)\\\"/)[2], \",\", \".\"))/3600.0",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Coordinate 2 using expression grel:toNumber(value.match(/(\\d+)°(\\d+)'([\\d.]+)\\\"/)[0])+\ntoNumber(value.match(/(\\d+)°(\\d+)'([\\d.,]+)\\\"/)[1])/60.0+\ntoNumber(replace(value.match(/(\\d+)°(\\d+)'([\\d.]+)\\\"/)[2], \",\", \".\"))/3600.0",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Coordinate 2",
+    "expression": "grel:toNumber(value.match(/(\\d+)°(\\d+)'([\\d.]+)\\\"/)[0])+\ntoNumber(value.match(/(\\d+)°(\\d+)'([\\d.,]+)\\\"/)[1])/60.0+\ntoNumber(replace(value.match(/(\\d+)°(\\d+)'([\\d.]+)\\\"/)[2], \",\", \".\"))/3600.0",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Coordinate 1 using expression grel:round(value*1000000)/1000000.0",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Coordinate 1",
+    "expression": "grel:round(value*1000000)/1000000.0",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Coordinate 2 using expression grel:round(value*1000000)/1000000.0",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Coordinate 2",
+    "expression": "grel:round(value*1000000)/1000000.0",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column Denominazione by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Denominazione",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "-",
+    "regex": false,
+    "maxColumns": 2
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Denominazione 1 to ref",
+    "oldColumnName": "Denominazione 1",
+    "newColumnName": "ref"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Denominazione 2 to name",
+    "oldColumnName": "Denominazione 2",
+    "newColumnName": "name"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Coordinate 1 to lon",
+    "oldColumnName": "Coordinate 1",
+    "newColumnName": "lon"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Coordinate 2 to lat",
+    "oldColumnName": "Coordinate 2",
+    "newColumnName": "lat"
+  }
+]

@@ -1,0 +1,4772 @@
+{
+ "features": [
+  {
+   "geometry": {
+    "coordinates": [
+     12.586308,
+     45.902831
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -1,
+    "osm_type": "node",
+    "ref_id": "1064",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio Privato Via Maron",
+    "tags.ref": "2"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.589869,
+     45.893031
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -2,
+    "osm_type": "node",
+    "ref_id": "1065",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Area Verde Sede ANA",
+    "tags.ref": "3"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.596339,
+     45.893283
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -3,
+    "osm_type": "node",
+    "ref_id": "1066",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Piazza Wanda Meyer",
+    "tags.ref": "4"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.600628,
+     45.886683
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -4,
+    "osm_type": "node",
+    "ref_id": "1067",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio Chiesa San Giovanni",
+    "tags.ref": "6"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.592742,
+     45.870106
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -5,
+    "osm_type": "node",
+    "ref_id": "1068",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio Borgata Peressine",
+    "tags.ref": "8"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.57025,
+     45.862158
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -6,
+    "osm_type": "node",
+    "ref_id": "1069",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Area Pro Loco Villanova",
+    "tags.ref": "10"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.564458,
+     45.871633
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -7,
+    "osm_type": "node",
+    "ref_id": "1070",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio BAR \"5 punto 0\"",
+    "tags.ref": "12"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.566006,
+     45.843597
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -8,
+    "osm_type": "node",
+    "ref_id": "1071",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio Piazza Mazzini",
+    "tags.ref": "13"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.56935,
+     45.881408
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -9,
+    "osm_type": "node",
+    "ref_id": "1072",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio Via Gorizia",
+    "tags.ref": "14"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.600081,
+     45.895706
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -10,
+    "osm_type": "node",
+    "ref_id": "1073",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio Poliambulatorio",
+    "tags.ref": "15"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.569142,
+     45.864983
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -11,
+    "osm_type": "node",
+    "ref_id": "1074",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio scuola elementare di Villanova",
+    "tags.ref": "16"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.584864,
+     45.88165
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -12,
+    "osm_type": "node",
+    "ref_id": "1075",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio Stadio comunale e PalaPrata",
+    "tags.ref": "17"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.600325,
+     45.902814
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -13,
+    "osm_type": "node",
+    "ref_id": "1076",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Area verde - Pluriuso",
+    "tags.ref": "18"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.584725,
+     46.071511
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -14,
+    "osm_type": "node",
+    "ref_id": "1227",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "parcheggio campo sportivo",
+    "tags.ref": "1"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.613017,
+     46.119483
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -15,
+    "osm_type": "node",
+    "ref_id": "1228",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "piazzale ufficio postale Giais",
+    "tags.ref": "2"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.595142,
+     46.094778
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -16,
+    "osm_type": "node",
+    "ref_id": "1229",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "piazzale Marsure",
+    "tags.ref": "3"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.588875,
+     46.071467
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -17,
+    "osm_type": "node",
+    "ref_id": "1230",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "piazzale Trento",
+    "tags.ref": "4"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.589256,
+     46.066428
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -18,
+    "osm_type": "node",
+    "ref_id": "1231",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "piazzale coop",
+    "tags.ref": "5"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.574661,
+     46.059489
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -19,
+    "osm_type": "node",
+    "ref_id": "1232",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "parcheggio scuole Villotta",
+    "tags.ref": "6"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.564747,
+     46.053528
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -20,
+    "osm_type": "node",
+    "ref_id": "1233",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "parcheggi via Colmello Fabbro Castello",
+    "tags.ref": "7"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.524164,
+     46.111439
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -21,
+    "osm_type": "node",
+    "ref_id": "1234",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "piazzale Martiri della Libertà",
+    "tags.ref": "8"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.5913,
+     46.098897
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -22,
+    "osm_type": "node",
+    "ref_id": "1236",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "grave Marsure",
+    "tags.ref": "10"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.603864,
+     46.116914
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -23,
+    "osm_type": "node",
+    "ref_id": "1237",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Santa Barbara",
+    "tags.ref": "11"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.5767,
+     46.082975
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -24,
+    "osm_type": "node",
+    "ref_id": "1238",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Piazza Costa",
+    "tags.ref": "12"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.591308,
+     46.085233
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -25,
+    "osm_type": "node",
+    "ref_id": "1239",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Baroz",
+    "tags.ref": "13"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.579414,
+     46.424161
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -26,
+    "osm_type": "node",
+    "ref_id": "1276",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Piazza Centrale",
+    "tags.ref": "1"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.582633,
+     46.419992
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -27,
+    "osm_type": "node",
+    "ref_id": "1277",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio fronte stazione VVF",
+    "tags.ref": "2"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.589044,
+     46.4122
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -28,
+    "osm_type": "node",
+    "ref_id": "1278",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Andrazza",
+    "tags.ref": "3"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.435578,
+     45.964431
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -29,
+    "osm_type": "node",
+    "ref_id": "1473",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio scuole Stevenà",
+    "tags.ref": "4"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.475364,
+     45.983653
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -30,
+    "osm_type": "node",
+    "ref_id": "1474",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio Chiesa",
+    "tags.ref": "5"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.464739,
+     45.993208
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -31,
+    "osm_type": "node",
+    "ref_id": "1475",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio via Montello",
+    "tags.ref": "8"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.447392,
+     45.951692
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -32,
+    "osm_type": "node",
+    "ref_id": "1476",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio via Lenisa a Fratta",
+    "tags.ref": "9"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.46165,
+     45.991661
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -33,
+    "osm_type": "node",
+    "ref_id": "1479",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio via XXV Aprile",
+    "tags.ref": "12"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.433556,
+     45.967217
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -34,
+    "osm_type": "node",
+    "ref_id": "1481",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Piazza del Carmine",
+    "tags.ref": "14"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.639033,
+     46.016492
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -35,
+    "osm_type": "node",
+    "ref_id": "1606",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Sede Comunale",
+    "tags.ref": "1"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.533511,
+     46.041728
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -36,
+    "osm_type": "node",
+    "ref_id": "1712",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Sede Protezione Civile Budoia",
+    "tags.ref": "1"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.370997,
+     46.274464
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -37,
+    "osm_type": "node",
+    "ref_id": "1727",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio Sciariàda",
+    "tags.ref": "1"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.334617,
+     46.271622
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -38,
+    "osm_type": "node",
+    "ref_id": "1728",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio via Motta",
+    "tags.ref": "2"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.382236,
+     46.27895
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -39,
+    "osm_type": "node",
+    "ref_id": "1729",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio San Martino",
+    "tags.ref": "3"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.612569,
+     46.201853
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -40,
+    "osm_type": "node",
+    "ref_id": "1734",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "AREA DI ATTESA LOC. PALLEVA",
+    "tags.ref": "1"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.600961,
+     46.202614
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -41,
+    "osm_type": "node",
+    "ref_id": "1735",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "VIA ALCHEDA, CORTILE LATTERIA",
+    "tags.ref": "3"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.630639,
+     46.196211
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -42,
+    "osm_type": "node",
+    "ref_id": "1736",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "VIA BOSPLANS,incrocio",
+    "tags.ref": "4"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.610644,
+     46.199386
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -43,
+    "osm_type": "node",
+    "ref_id": "1737",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "PARCHEGGIO CIMITERO, VIA N. SAURO",
+    "tags.ref": "5"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.616944,
+     46.201253
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -44,
+    "osm_type": "node",
+    "ref_id": "1738",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "CASA ANZIANI, VIA CESARE BATTISTI, 75",
+    "tags.ref": "6"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.624917,
+     46.203228
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -45,
+    "osm_type": "node",
+    "ref_id": "1739",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "CHIESETTA, VIA SOTT'ANZAS",
+    "tags.ref": "7"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.604611,
+     46.197458
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -46,
+    "osm_type": "node",
+    "ref_id": "1740",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "FONTANA, VIA PRAPIERO",
+    "tags.ref": "8"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.514464,
+     45.965989
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -47,
+    "osm_type": "node",
+    "ref_id": "1797",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parco Col Alto",
+    "tags.ref": "1"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.532253,
+     45.963678
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -48,
+    "osm_type": "node",
+    "ref_id": "1798",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Via Venzone",
+    "tags.ref": "2"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.5022,
+     45.956694
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -49,
+    "osm_type": "node",
+    "ref_id": "1799",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Area Monumento dei Caduti",
+    "tags.ref": "4"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.49795,
+     45.948825
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -50,
+    "osm_type": "node",
+    "ref_id": "1800",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Piazza Libertà-Stazione FF.SS.",
+    "tags.ref": "5"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.51205,
+     45.947742
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -51,
+    "osm_type": "node",
+    "ref_id": "1801",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Area via Abruzzi",
+    "tags.ref": "7"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.518519,
+     45.911564
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -52,
+    "osm_type": "node",
+    "ref_id": "1802",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parco Brenelli",
+    "tags.ref": "8"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.522606,
+     45.925758
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -53,
+    "osm_type": "node",
+    "ref_id": "1803",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Piazzola Ecologica",
+    "tags.ref": "10"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.489347,
+     45.954533
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -54,
+    "osm_type": "node",
+    "ref_id": "1804",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parco via Po",
+    "tags.ref": "11"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.507708,
+     45.957503
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -55,
+    "osm_type": "node",
+    "ref_id": "1805",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parco Balliana",
+    "tags.ref": "12"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.502883,
+     45.945419
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -56,
+    "osm_type": "node",
+    "ref_id": "1806",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Area esterna Cimitero S. Odorico",
+    "tags.ref": "13"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.526897,
+     45.965386
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -57,
+    "osm_type": "node",
+    "ref_id": "1807",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Area Sosta Complesso Scolastico San Giovanni del Tempio",
+    "tags.ref": "14"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.501428,
+     45.957169
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -58,
+    "osm_type": "node",
+    "ref_id": "1808",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio Piccin",
+    "tags.ref": "25"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.517625,
+     45.959164
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -59,
+    "osm_type": "node",
+    "ref_id": "1809",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio campo sportivo XXV Aprile",
+    "tags.ref": "26"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.531156,
+     45.966144
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -60,
+    "osm_type": "node",
+    "ref_id": "1810",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Area Via Latisana",
+    "tags.ref": "28"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.533806,
+     45.964528
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -61,
+    "osm_type": "node",
+    "ref_id": "1811",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Area Via Pordenone",
+    "tags.ref": "29"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.510989,
+     45.947078
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -62,
+    "osm_type": "node",
+    "ref_id": "1812",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Area via Val d'Aosta",
+    "tags.ref": "31"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.485617,
+     45.956264
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -63,
+    "osm_type": "node",
+    "ref_id": "1813",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Area Via Gobetti",
+    "tags.ref": "33"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.516186,
+     45.942358
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -64,
+    "osm_type": "node",
+    "ref_id": "1814",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Area Artigianale Geromina",
+    "tags.ref": "35"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.507992,
+     45.930439
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -65,
+    "osm_type": "node",
+    "ref_id": "1815",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Area Via dei Tigli",
+    "tags.ref": "36"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.500772,
+     45.961267
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -66,
+    "osm_type": "node",
+    "ref_id": "1816",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Area via Dall'Ava",
+    "tags.ref": "38"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.508311,
+     45.931419
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -67,
+    "osm_type": "node",
+    "ref_id": "1817",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Area via Cavolano",
+    "tags.ref": "46"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.480036,
+     45.949633
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -68,
+    "osm_type": "node",
+    "ref_id": "1818",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "area via Vicenza",
+    "tags.ref": "57"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.474031,
+     45.947503
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -69,
+    "osm_type": "node",
+    "ref_id": "1819",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Area esterna scuola infanzia Archimede",
+    "tags.ref": "58"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.475317,
+     45.936561
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -70,
+    "osm_type": "node",
+    "ref_id": "1820",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Area Vistorta",
+    "tags.ref": "60"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.492558,
+     45.961667
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -71,
+    "osm_type": "node",
+    "ref_id": "1821",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Area Via Ronche",
+    "tags.ref": "61"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.505142,
+     45.935967
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -72,
+    "osm_type": "node",
+    "ref_id": "1822",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Area Schiavoi",
+    "tags.ref": "62"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.490481,
+     45.951258
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -73,
+    "osm_type": "node",
+    "ref_id": "1823",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Area via Misurina",
+    "tags.ref": "63"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.512622,
+     46.024331
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -74,
+    "osm_type": "node",
+    "ref_id": "1829",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio Chiesa S. Giovanni",
+    "tags.ref": "1"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.509269,
+     46.025944
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -75,
+    "osm_type": "node",
+    "ref_id": "1830",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Via Pordenone",
+    "tags.ref": "2"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.499881,
+     46.035875
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -76,
+    "osm_type": "node",
+    "ref_id": "1831",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Scuole Medie Polcenigo",
+    "tags.ref": "3"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.479042,
+     46.023036
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -77,
+    "osm_type": "node",
+    "ref_id": "1832",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio Santissima",
+    "tags.ref": "4"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.49015,
+     46.032119
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -78,
+    "osm_type": "node",
+    "ref_id": "1833",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Chiesa Coltura",
+    "tags.ref": "5"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.492378,
+     46.046239
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -79,
+    "osm_type": "node",
+    "ref_id": "1834",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Mezzomonte",
+    "tags.ref": "6"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.498469,
+     46.029014
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -80,
+    "osm_type": "node",
+    "ref_id": "1835",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio San Rocco",
+    "tags.ref": "7"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.474783,
+     46.013406
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -81,
+    "osm_type": "node",
+    "ref_id": "1836",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Località Valle",
+    "tags.ref": "8"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.511303,
+     46.019403
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -82,
+    "osm_type": "node",
+    "ref_id": "1837",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Mobilificio MOMO",
+    "tags.ref": "9"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.507464,
+     46.007847
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -83,
+    "osm_type": "node",
+    "ref_id": "1838",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Ristorante alla Fontaniva",
+    "tags.ref": "10"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.517769,
+     46.029756
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -84,
+    "osm_type": "node",
+    "ref_id": "1839",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio ex Bar da Betty",
+    "tags.ref": "11"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.496878,
+     46.037225
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -85,
+    "osm_type": "node",
+    "ref_id": "1840",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio Gorgazzo",
+    "tags.ref": "12"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.504356,
+     46.038128
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -86,
+    "osm_type": "node",
+    "ref_id": "1841",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Via Mariet",
+    "tags.ref": "13"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.503639,
+     46.032639
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -87,
+    "osm_type": "node",
+    "ref_id": "1842",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "parco Via Polcenigo presso Bravin Rino",
+    "tags.ref": "14"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.618044,
+     46.008911
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -88,
+    "osm_type": "node",
+    "ref_id": "1917",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parco presso la Sede Municipale",
+    "tags.ref": "3"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.620689,
+     46.0262
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -89,
+    "osm_type": "node",
+    "ref_id": "1918",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio del Centro Commerciale",
+    "tags.ref": "4"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.620647,
+     46.0178
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -90,
+    "osm_type": "node",
+    "ref_id": "1919",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Slargo laterale Via Mazzini",
+    "tags.ref": "8"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.614875,
+     46.013211
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -91,
+    "osm_type": "node",
+    "ref_id": "1920",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Area verde di via C. Colombo",
+    "tags.ref": "9"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.609731,
+     46.014961
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -92,
+    "osm_type": "node",
+    "ref_id": "1921",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Area verde di via Marinelli",
+    "tags.ref": "10"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.622153,
+     46.010822
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -93,
+    "osm_type": "node",
+    "ref_id": "1922",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio cimitero",
+    "tags.ref": "11"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.615383,
+     46.007575
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -94,
+    "osm_type": "node",
+    "ref_id": "1923",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Area verde Via Carducci di fronte alla palestra comunale",
+    "tags.ref": "12"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.621022,
+     46.007969
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -95,
+    "osm_type": "node",
+    "ref_id": "1924",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio Giovanni Falcone - pressi Sede Associazioni",
+    "tags.ref": "13"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.613442,
+     46.004733
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -96,
+    "osm_type": "node",
+    "ref_id": "1925",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parco La Radice Quadrata di Via Gortanutti",
+    "tags.ref": "14"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.612761,
+     46.001142
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -97,
+    "osm_type": "node",
+    "ref_id": "1926",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Area verde di Via Grigoletti",
+    "tags.ref": "16"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.614592,
+     45.999436
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -98,
+    "osm_type": "node",
+    "ref_id": "1927",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Area verde di via San Sebastiano",
+    "tags.ref": "17"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.618264,
+     45.986944
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -99,
+    "osm_type": "node",
+    "ref_id": "1928",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Area verde e parcheggio delal Zona Artigianale",
+    "tags.ref": "18"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.613983,
+     45.983908
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -100,
+    "osm_type": "node",
+    "ref_id": "1929",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Area verde della Zona Industriale",
+    "tags.ref": "19"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.618325,
+     45.978458
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -101,
+    "osm_type": "node",
+    "ref_id": "1930",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggi in località Borgonuovo",
+    "tags.ref": "20"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.614083,
+     46.003778
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -102,
+    "osm_type": "node",
+    "ref_id": "1931",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio in via Viola",
+    "tags.ref": "21"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.606281,
+     45.999719
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -103,
+    "osm_type": "node",
+    "ref_id": "1932",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio e area verede fronte ingresso ditta Cave dell'Agnese",
+    "tags.ref": "22"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.591472,
+     46.012511
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -104,
+    "osm_type": "node",
+    "ref_id": "1933",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Area Verde lungo SP 31 in prossimità della rotonda in località Tornielli",
+    "tags.ref": "23"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.611489,
+     46.008789
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -105,
+    "osm_type": "node",
+    "ref_id": "1934",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Area verde di via Del Gelso",
+    "tags.ref": "24"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.619425,
+     46.006228
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -106,
+    "osm_type": "node",
+    "ref_id": "1935",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio di via 3 Ottobre",
+    "tags.ref": "25"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.6181,
+     46.002947
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -107,
+    "osm_type": "node",
+    "ref_id": "1936",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio \"P. Borsellino\" di via XX Settembre",
+    "tags.ref": "26"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.648675,
+     46.150536
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -108,
+    "osm_type": "node",
+    "ref_id": "2024",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "PIAZZA IV NOVEMBRE",
+    "tags.ref": "8"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.64495,
+     46.153372
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -109,
+    "osm_type": "node",
+    "ref_id": "2026",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "BORGO ALZETTA",
+    "tags.ref": "10"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.636594,
+     46.143772
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -110,
+    "osm_type": "node",
+    "ref_id": "2027",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "CENTRO COMUNITARIO MALNISIO",
+    "tags.ref": "13"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.632086,
+     46.139261
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -111,
+    "osm_type": "node",
+    "ref_id": "2039",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "VIA GIAIS",
+    "tags.ref": "31"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.630944,
+     46.143231
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -112,
+    "osm_type": "node",
+    "ref_id": "2040",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "LARGO GARIBALDI - MALNISIO -",
+    "tags.ref": "32"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.633369,
+     46.143464
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -113,
+    "osm_type": "node",
+    "ref_id": "2042",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Incrocio Via Alessandro Volta e Via Alfieri",
+    "tags.ref": "42"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.642281,
+     46.145883
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -114,
+    "osm_type": "node",
+    "ref_id": "2044",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "PARCHEGGIO CIMITERO - MALNISIO -",
+    "tags.ref": "47"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.637194,
+     46.139728
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -115,
+    "osm_type": "node",
+    "ref_id": "2045",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "VIA MACOR-ALDO MORO",
+    "tags.ref": "49"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.439542,
+     46.286678
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -116,
+    "osm_type": "node",
+    "ref_id": "2096",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "PARCHEGGIO ANTISTANTE CASERMA CARABINIERI",
+    "tags.ref": "3"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.446017,
+     46.284717
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -117,
+    "osm_type": "node",
+    "ref_id": "2097",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "SAN FLORIANO",
+    "tags.ref": "4"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.434889,
+     46.286489
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -118,
+    "osm_type": "node",
+    "ref_id": "2098",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "STRADA PRADA",
+    "tags.ref": "5"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.437894,
+     46.29075
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -119,
+    "osm_type": "node",
+    "ref_id": "2099",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "CASA PER ANZIANI",
+    "tags.ref": "6"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.448239,
+     45.968586
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -120,
+    "osm_type": "node",
+    "ref_id": "288",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Piazza Martiri Garibaldini",
+    "tags.ref": "1"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.448483,
+     45.966006
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -121,
+    "osm_type": "node",
+    "ref_id": "293",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Via Trieste",
+    "tags.ref": "10"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.467553,
+     45.99015
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -122,
+    "osm_type": "node",
+    "ref_id": "294",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Via Carso",
+    "tags.ref": "11"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.453969,
+     45.968592
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -123,
+    "osm_type": "node",
+    "ref_id": "296",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "via Giovanni Falcone",
+    "tags.ref": "13"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.629628,
+     45.847428
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -124,
+    "osm_type": "node",
+    "ref_id": "317",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Campo Sportivo Comunale \"Sergio Pase\"",
+    "tags.ref": "1"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.612458,
+     45.889278
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -125,
+    "osm_type": "node",
+    "ref_id": "318",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Campo Sportivo Comunale di Visinale",
+    "tags.ref": "2"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.578253,
+     45.845403
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -126,
+    "osm_type": "node",
+    "ref_id": "319",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio Chiesa Rivarotta",
+    "tags.ref": "3"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.612231,
+     45.874442
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -127,
+    "osm_type": "node",
+    "ref_id": "320",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio Chiesa Cecchini",
+    "tags.ref": "4"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.626581,
+     45.849831
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -128,
+    "osm_type": "node",
+    "ref_id": "321",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Piazza Alcide De Gasperi",
+    "tags.ref": "5"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.627244,
+     45.851219
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -129,
+    "osm_type": "node",
+    "ref_id": "322",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio Comune",
+    "tags.ref": "6"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.61525,
+     45.846356
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -130,
+    "osm_type": "node",
+    "ref_id": "323",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Area Parcheggio Rist. Da Giorgio",
+    "tags.ref": "7"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.609883,
+     45.872411
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -131,
+    "osm_type": "node",
+    "ref_id": "324",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio Scuole Cecchini",
+    "tags.ref": "8"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.609425,
+     45.901567
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -132,
+    "osm_type": "node",
+    "ref_id": "325",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio Visinale di Sopra",
+    "tags.ref": "9"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.648708,
+     45.868906
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -133,
+    "osm_type": "node",
+    "ref_id": "326",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Lottizzazione Borgo Sant'Anna",
+    "tags.ref": "10"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.589386,
+     45.828419
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -134,
+    "osm_type": "node",
+    "ref_id": "328",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio Trattoria Quadrifoglio",
+    "tags.ref": "12"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.565375,
+     46.190769
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -135,
+    "osm_type": "node",
+    "ref_id": "329",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Area d'attesa Riva Lago",
+    "tags.ref": "1"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.536481,
+     45.904531
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -136,
+    "osm_type": "node",
+    "ref_id": "56",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Area verde via A. Volta",
+    "tags.ref": "1"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.531061,
+     45.903164
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -137,
+    "osm_type": "node",
+    "ref_id": "57",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Area verde scuola media",
+    "tags.ref": "2"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.556353,
+     45.896897
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -138,
+    "osm_type": "node",
+    "ref_id": "58",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Area mercato Maron",
+    "tags.ref": "4"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.542361,
+     45.875483
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -139,
+    "osm_type": "node",
+    "ref_id": "59",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Area esterna cimitero di San Cassiano",
+    "tags.ref": "7"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.530375,
+     45.906239
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -140,
+    "osm_type": "node",
+    "ref_id": "60",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Via Marconi",
+    "tags.ref": "9"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.545953,
+     45.89475
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -141,
+    "osm_type": "node",
+    "ref_id": "61",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcherggio campo sportivo Maron",
+    "tags.ref": "12"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.568672,
+     45.922264
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -142,
+    "osm_type": "node",
+    "ref_id": "62",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Area verde Via Giovanni XXIII",
+    "tags.ref": "13"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.535858,
+     45.898817
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -143,
+    "osm_type": "node",
+    "ref_id": "63",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio Municipio",
+    "tags.ref": "14"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.569281,
+     45.924817
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -144,
+    "osm_type": "node",
+    "ref_id": "64",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio scuola elementare Tamai",
+    "tags.ref": "15"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.5716,
+     45.925619
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -145,
+    "osm_type": "node",
+    "ref_id": "65",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio via A. Moro",
+    "tags.ref": "16"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.556311,
+     45.9023
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -146,
+    "osm_type": "node",
+    "ref_id": "66",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio supermercato via Taglio",
+    "tags.ref": "17"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.540711,
+     45.907964
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -147,
+    "osm_type": "node",
+    "ref_id": "67",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio ristorante Tinello",
+    "tags.ref": "18"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.533581,
+     45.910894
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -148,
+    "osm_type": "node",
+    "ref_id": "68",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio bar via N. Sauro",
+    "tags.ref": "19"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.517392,
+     46.268281
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -149,
+    "osm_type": "node",
+    "ref_id": "83",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "area Pregulin",
+    "tags.ref": "2"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.63155,
+     45.957356
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -150,
+    "osm_type": "node",
+    "ref_id": "838",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Chiesa di S. Agnese",
+    "tags.ref": "2"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.626892,
+     45.9611
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -151,
+    "osm_type": "node",
+    "ref_id": "839",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Plesso scolastico di Roraipiccolo",
+    "tags.ref": "3"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.515189,
+     46.268047
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -152,
+    "osm_type": "node",
+    "ref_id": "84",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "area ex cinema",
+    "tags.ref": "3"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.609442,
+     45.957117
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -153,
+    "osm_type": "node",
+    "ref_id": "840",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Plesso scolastico Porcia centro",
+    "tags.ref": "4"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.604769,
+     45.945078
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -154,
+    "osm_type": "node",
+    "ref_id": "841",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Plesso scolastico Palse",
+    "tags.ref": "5"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.587019,
+     45.957639
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -155,
+    "osm_type": "node",
+    "ref_id": "842",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Chiesa di Pieve",
+    "tags.ref": "6"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.611828,
+     45.974422
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -156,
+    "osm_type": "node",
+    "ref_id": "843",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Asili S. Antonio",
+    "tags.ref": "7"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.608064,
+     45.955706
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -157,
+    "osm_type": "node",
+    "ref_id": "844",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Centro socio-assistenziale",
+    "tags.ref": "8"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.631181,
+     45.954556
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -158,
+    "osm_type": "node",
+    "ref_id": "845",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "via Piave",
+    "tags.ref": "9"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.641608,
+     45.952256
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -159,
+    "osm_type": "node",
+    "ref_id": "846",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Lago Burrida",
+    "tags.ref": "10"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.618547,
+     45.915031
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -160,
+    "osm_type": "node",
+    "ref_id": "847",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Rondover",
+    "tags.ref": "11"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.613825,
+     45.922186
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -161,
+    "osm_type": "node",
+    "ref_id": "848",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "via Prata",
+    "tags.ref": "12"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.62625,
+     45.959019
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -162,
+    "osm_type": "node",
+    "ref_id": "849",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Prato antistante villa Dolfin",
+    "tags.ref": "13"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.513347,
+     46.268875
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -163,
+    "osm_type": "node",
+    "ref_id": "85",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Conca verde",
+    "tags.ref": "4"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.618872,
+     45.952689
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -164,
+    "osm_type": "node",
+    "ref_id": "850",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "via Meduna",
+    "tags.ref": "14"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.606311,
+     45.964922
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -165,
+    "osm_type": "node",
+    "ref_id": "851",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Sant'Angelo",
+    "tags.ref": "15"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.609358,
+     45.956172
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -166,
+    "osm_type": "node",
+    "ref_id": "852",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Area Giglio",
+    "tags.ref": "16"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.510228,
+     46.268083
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -167,
+    "osm_type": "node",
+    "ref_id": "86",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "campo sportivo",
+    "tags.ref": "5"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.547956,
+     46.272
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -168,
+    "osm_type": "node",
+    "ref_id": "87",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Lesis",
+    "tags.ref": "9"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.647811,
+     45.940292
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -169,
+    "osm_type": "node",
+    "ref_id": "872",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Area verde Via Dogana",
+    "tags.ref": "5"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.649389,
+     45.96275
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -170,
+    "osm_type": "node",
+    "ref_id": "879",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "014 Area verde Via Cividale",
+    "tags.ref": "14"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.504222,
+     46.268353
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -171,
+    "osm_type": "node",
+    "ref_id": "88",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "ex Villaggio Vajont",
+    "tags.ref": "10"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.646814,
+     45.971619
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -172,
+    "osm_type": "node",
+    "ref_id": "882",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Area verde Via Brigata Lupi di Toscana",
+    "tags.ref": "17"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.648372,
+     45.957036
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -173,
+    "osm_type": "node",
+    "ref_id": "884",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "019 Parcheggio stadio \"O. Bottecchia\"",
+    "tags.ref": "19"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.475969,
+     46.265894
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -174,
+    "osm_type": "node",
+    "ref_id": "89",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Pinedo",
+    "tags.ref": "15"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.471361,
+     46.247142
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -175,
+    "osm_type": "node",
+    "ref_id": "90",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Cellino di Sopra",
+    "tags.ref": "18"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.638708,
+     45.967042
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -176,
+    "osm_type": "node",
+    "ref_id": "900",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Area verde Via Auronzo",
+    "tags.ref": "41"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.640767,
+     45.970439
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -177,
+    "osm_type": "node",
+    "ref_id": "901",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Area verde Via Locatelli",
+    "tags.ref": "42"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.630106,
+     45.965083
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -178,
+    "osm_type": "node",
+    "ref_id": "902",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio Via Pitter",
+    "tags.ref": "43"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.640881,
+     45.964283
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -179,
+    "osm_type": "node",
+    "ref_id": "903",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Area verde Via Casarsa",
+    "tags.ref": "44"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.636481,
+     45.97205
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -180,
+    "osm_type": "node",
+    "ref_id": "904",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Allargamento carreggiata di Via Misurina",
+    "tags.ref": "45"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.637514,
+     45.969661
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -181,
+    "osm_type": "node",
+    "ref_id": "905",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio Via Bassano",
+    "tags.ref": "46"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.642994,
+     45.978678
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -182,
+    "osm_type": "node",
+    "ref_id": "906",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Area verde privata Via Tiro a Segno",
+    "tags.ref": "48"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.644117,
+     45.958261
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -183,
+    "osm_type": "node",
+    "ref_id": "908",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio Via Latisana",
+    "tags.ref": "51"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.647031,
+     45.959064
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -184,
+    "osm_type": "node",
+    "ref_id": "909",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio Via San Vito",
+    "tags.ref": "52"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.513847,
+     46.267903
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -185,
+    "osm_type": "node",
+    "ref_id": "91",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Dolomiti",
+    "tags.ref": "19"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.641942,
+     45.959261
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -186,
+    "osm_type": "node",
+    "ref_id": "910",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio Via Tessitura",
+    "tags.ref": "53"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.643961,
+     45.971472
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -187,
+    "osm_type": "node",
+    "ref_id": "913",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio palestra \"F. Gallini\"",
+    "tags.ref": "58"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.643894,
+     45.966417
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -188,
+    "osm_type": "node",
+    "ref_id": "914",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Area verde Viale Grigoletti",
+    "tags.ref": "59"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.643022,
+     45.932844
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -189,
+    "osm_type": "node",
+    "ref_id": "915",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio Via Chiesa di Vallenoncello",
+    "tags.ref": "60"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.640014,
+     45.928303
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -190,
+    "osm_type": "node",
+    "ref_id": "916",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio palestra di Vallenoncello",
+    "tags.ref": "61"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.634389,
+     45.992536
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -191,
+    "osm_type": "node",
+    "ref_id": "919",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio esterno Polo Tecnologico di Pordenone",
+    "tags.ref": "64"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.564089,
+     45.978567
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -192,
+    "osm_type": "node",
+    "ref_id": "950",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Piazzale San Luca",
+    "tags.ref": "1"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.603181,
+     45.988711
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -193,
+    "osm_type": "node",
+    "ref_id": "951",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "ceolini via tasso",
+    "tags.ref": "2"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.534044,
+     45.99765
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -194,
+    "osm_type": "node",
+    "ref_id": "952",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Ranzano Via Verdi",
+    "tags.ref": "3"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.502353,
+     45.977886
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -195,
+    "osm_type": "node",
+    "ref_id": "953",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Nave Via Lirutti",
+    "tags.ref": "4"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.538281,
+     45.933394
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -196,
+    "osm_type": "node",
+    "ref_id": "954",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Camolli Via Casut",
+    "tags.ref": "5"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.55535,
+     45.993578
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -197,
+    "osm_type": "node",
+    "ref_id": "955",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Vigonovo Via Baracca - campo sportivo",
+    "tags.ref": "6"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.589758,
+     45.973831
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -198,
+    "osm_type": "node",
+    "ref_id": "956",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Ronche via Percoto - Via Custoza",
+    "tags.ref": "7"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.573122,
+     45.9731
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -199,
+    "osm_type": "node",
+    "ref_id": "957",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Fontanafredda Via Pastrengo - Via Don Piero della Toffola",
+    "tags.ref": "8"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.572361,
+     45.970331
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -200,
+    "osm_type": "node",
+    "ref_id": "958",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Fontanafredda Via IV Novembre - Via dei Mille",
+    "tags.ref": "9"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.510369,
+     45.976972
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -201,
+    "osm_type": "node",
+    "ref_id": "959",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Nave Via Casera Chions",
+    "tags.ref": "11"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.498725,
+     45.991969
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -202,
+    "osm_type": "node",
+    "ref_id": "960",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Nave Via Valstort",
+    "tags.ref": "12"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.510914,
+     45.985167
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -203,
+    "osm_type": "node",
+    "ref_id": "961",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Via Bodegan",
+    "tags.ref": "13"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.525686,
+     45.977961
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -204,
+    "osm_type": "node",
+    "ref_id": "962",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "La Croce - Via Brigata Osoppo",
+    "tags.ref": "14"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.539217,
+     45.998636
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -205,
+    "osm_type": "node",
+    "ref_id": "963",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Ranzano - Parcheggio Via Crosetta",
+    "tags.ref": "15"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.544481,
+     45.993242
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -206,
+    "osm_type": "node",
+    "ref_id": "964",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Via Veronese",
+    "tags.ref": "16"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.540311,
+     45.991228
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -207,
+    "osm_type": "node",
+    "ref_id": "965",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Via G. Oberdan",
+    "tags.ref": "17"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.554856,
+     45.985361
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -208,
+    "osm_type": "node",
+    "ref_id": "966",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Via Puccini",
+    "tags.ref": "18"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.570417,
+     45.978753
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -209,
+    "osm_type": "node",
+    "ref_id": "967",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "PEEP",
+    "tags.ref": "19"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.561506,
+     45.974897
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -210,
+    "osm_type": "node",
+    "ref_id": "968",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Via Stellini - Via Del Macello",
+    "tags.ref": "20"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.579667,
+     45.972539
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -211,
+    "osm_type": "node",
+    "ref_id": "969",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Parcheggio Via Del Cesiol",
+    "tags.ref": "21"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.586625,
+     45.986336
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -212,
+    "osm_type": "node",
+    "ref_id": "970",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Via P. Zorutti",
+    "tags.ref": "22"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.586594,
+     45.9579
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -213,
+    "osm_type": "node",
+    "ref_id": "971",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Via Pieve",
+    "tags.ref": "23"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.536592,
+     45.952747
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -214,
+    "osm_type": "node",
+    "ref_id": "972",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Via Palmanova",
+    "tags.ref": "24"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.562953,
+     45.957219
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -215,
+    "osm_type": "node",
+    "ref_id": "973",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Via Brugnera",
+    "tags.ref": "25"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.569964,
+     45.981933
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -216,
+    "osm_type": "node",
+    "ref_id": "974",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Via Anello del Sole",
+    "tags.ref": "29"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.568114,
+     45.980969
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -217,
+    "osm_type": "node",
+    "ref_id": "975",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Zona sportiva",
+    "tags.ref": "30"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.572817,
+     45.975558
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -218,
+    "osm_type": "node",
+    "ref_id": "976",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Fontanafredda",
+    "tags.ref": "31"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.547997,
+     45.991219
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -219,
+    "osm_type": "node",
+    "ref_id": "977",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Vigonovo 1",
+    "tags.ref": "32"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.55445,
+     45.988183
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -220,
+    "osm_type": "node",
+    "ref_id": "978",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "bivio via Leopardi - strada Col di riva",
+    "tags.ref": "33"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.565622,
+     45.973475
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -221,
+    "osm_type": "node",
+    "ref_id": "979",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Laterale Via Grigoletti - ambulatorio",
+    "tags.ref": "34"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.568189,
+     45.975131
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -222,
+    "osm_type": "node",
+    "ref_id": "980",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Via Del Parco",
+    "tags.ref": "35"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.578428,
+     45.978692
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -223,
+    "osm_type": "node",
+    "ref_id": "981",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Via Carducci",
+    "tags.ref": "36"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.571011,
+     45.992158
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -224,
+    "osm_type": "node",
+    "ref_id": "982",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Via Zorutti - Gortani",
+    "tags.ref": "37"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.562939,
+     46.008025
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -225,
+    "osm_type": "node",
+    "ref_id": "983",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Via Bellini",
+    "tags.ref": "38"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.552378,
+     45.990514
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -226,
+    "osm_type": "node",
+    "ref_id": "984",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Via del Var",
+    "tags.ref": "39"
+   },
+   "type": "Feature"
+  },
+  {
+   "geometry": {
+    "coordinates": [
+     12.600114,
+     45.990583
+    ],
+    "type": "Point"
+   },
+   "properties": {
+    "action": "create",
+    "marker-color": "#11dd11",
+    "osm_id": -227,
+    "osm_type": "node",
+    "ref_id": "985",
+    "tags.assembly_point:earthquake": "yes",
+    "tags.emergency": "assembly_point",
+    "tags.name": "Cesare Battisti",
+    "tags.ref": "40"
+   },
+   "type": "Feature"
+  }
+ ],
+ "type": "FeatureCollection"
+}

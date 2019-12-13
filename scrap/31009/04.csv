@@ -1,0 +1,6 @@
+Denominazione,Sensori,Coordinate
+H2 - Grado,"Umidità, Pressione, Temperatura, Pioggia, , Vento vettoriale, Vento (direzione), Vento (intensità), Radiazione solare","13° 23' 45.96'' E, 45° 40' 37.92'' N"
+H4 - Grado,"Umidità, Pressione, Temperatura, Pioggia, Vento vettoriale, Vento (direzione), Radiazione solare","13° 23' 45.96'' E, 45° 40' 37.92'' N"
+H4 - Fossalon di Grado,"Umidità, Pressione, Bagnatura fogliare, Temperatura, Pioggia, Temperatura al suolo, Temperatura a 50 cm, Vento vettoriale, Vento (direzione), Vento (intensità), Radiazione solare, Vento a 2 m (intensità), Vento raffica (direzione), Vento raffica (intensità), Temperatura sotto suolo (10cm)","13° 27' 34.92'' E, 45° 42' 56.16'' N"
+PCIV - Grado Meteo,"Umidità, Pressione, Temperatura, Vento (direzione), Vento (intensità), Vento raffica (direzione), Vento raffica (intensità)","13° 22' 23.99'' E, 45° 40' 49.01'' N"
+PCIV - Grado Marea,"Idrometro, Pioggia","13° 23' 00.42'' E, 45° 40' 59.20'' N"

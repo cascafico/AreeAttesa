@@ -1,0 +1,1 @@
+cat parte_generele.htm | grep -i -e '</\?table\|</\?td\|</\?tr\|</\?th' | sed 's/^[\ \t]*//g' | sed 's/<\/TR[^>]*>/\n/Ig'| sed 's/<\/\?\(table\|tr\)[^>]*>//Ig'| sed 's/^<t[dh][^>]*>\|<\/\?t[dh][^>]*>$//Ig'| sed 's/<\/t[dh][^>]*><t[dh][^>]*>/,/Ig' | sed 's/<td[^>]*>/\n/Ig' 

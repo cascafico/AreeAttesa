@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><osm version="0.6" generator="Overpass API 0.7.55.7 8b86ff77">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2019-05-24T11:57:02Z" areas="2019-05-24T11:04:02Z"/>
+
+  <node id="4890297240" lat="46.2531838" lon="13.1174042" version="1" timestamp="2017-06-01T17:52:28Z" changeset="49172655" uid="188429" user="gpstracks">
+    <tag k="emergency" v="assembly_point"/>
+    <tag k="name" v="Area Centro Ricreativo Campolessi"/>
+    <tag k="operator" v="Comune di Gemona del Friuli"/>
+    <tag k="ref" v="2"/>
+  </node>
+  <node id="4890297241" lat="46.2665718" lon="13.1100784" version="1" timestamp="2017-06-01T17:52:28Z" changeset="49172655" uid="188429" user="gpstracks">
+    <tag k="emergency" v="assembly_point"/>
+    <tag k="name" v="Area Centro ricreativo Taboga"/>
+    <tag k="ref" v="1"/>
+  </node>
+  <node id="4890297229" lat="46.2749448" lon="13.1131482" version="1" timestamp="2017-06-01T17:52:27Z" changeset="49172655" uid="188429" user="gpstracks">
+    <tag k="emergency" v="assembly_point"/>
+    <tag k="name" v="Area Condominii via Armentaressa"/>
+    <tag k="operator" v="Comune di Gemona del Friuli"/>
+    <tag k="ref" v="11"/>
+  </node>
+  <node id="4890297231" lat="46.2762639" lon="13.1089465" version="1" timestamp="2017-06-01T17:52:27Z" changeset="49172655" uid="188429" user="gpstracks">
+    <tag k="emergency" v="assembly_point"/>
+    <tag k="name" v="Parcheggio Bravi Market"/>
+    <tag k="operator" v="Comune di Gemona del Friuli"/>
+    <tag k="ref" v="9"/>
+  </node>
+  <node id="4890297225" lat="46.2746727" lon="13.1301648" version="1" timestamp="2017-06-01T17:52:27Z" changeset="49172655" uid="188429" user="gpstracks">
+    <tag k="emergency" v="assembly_point"/>
+    <tag k="name" v="Paiazzale Franco Bertagnolli"/>
+    <tag k="operator" v="Comune di Gemona del Friuli"/>
+    <tag k="ref" v="16"/>
+  </node>
+  <node id="4890297232" lat="46.2836242" lon="13.1276026" version="1" timestamp="2017-06-01T17:52:28Z" changeset="49172655" uid="188429" user="gpstracks">
+    <tag k="emergency" v="assembly_point"/>
+    <tag k="name" v="Piazzale Palestra Polo Scolastico Superiore"/>
+    <tag k="operator" v="Comune di Gemona del Friuli"/>
+    <tag k="ref" v="8"/>
+  </node>
+  <node id="4890297238" lat="46.2711404" lon="13.1384844" version="1" timestamp="2017-06-01T17:52:28Z" changeset="49172655" uid="188429" user="gpstracks">
+    <tag k="emergency" v="assembly_point"/>
+    <tag k="name" v="Area Parchetto case ATER"/>
+    <tag k="operator" v="Comune di Gemona del Friuli"/>
+    <tag k="ref" v="5"/>
+  </node>
+  <node id="4890297239" lat="46.2650531" lon="13.1517807" version="1" timestamp="2017-06-01T17:52:28Z" changeset="49172655" uid="188429" user="gpstracks">
+    <tag k="emergency" v="assembly_point"/>
+    <tag k="name" v="Area Servizi Maniaglia"/>
+    <tag k="operator" v="Comune di Gemona del Friuli"/>
+    <tag k="ref" v="3"/>
+  </node>
+  <node id="4890297228" lat="46.2767037" lon="13.1349371" version="1" timestamp="2017-06-01T17:52:27Z" changeset="49172655" uid="188429" user="gpstracks">
+    <tag k="emergency" v="assembly_point"/>
+    <tag k="name" v="Parco Via Dante"/>
+    <tag k="operator" v="Comune di Gemona del Friuli"/>
+    <tag k="ref" v="12"/>
+  </node>
+  <node id="4890297234" lat="46.2763505" lon="13.1370648" version="1" timestamp="2017-06-01T17:52:28Z" changeset="49172655" uid="188429" user="gpstracks">
+    <tag k="emergency" v="assembly_point"/>
+    <tag k="name" v="Piazzale Monai"/>
+    <tag k="operator" v="Comune di Gemona del Friuli"/>
+    <tag k="ref" v="6"/>
+  </node>
+  <node id="4890297227" lat="46.2746982" lon="13.1412256" version="1" timestamp="2017-06-01T17:52:27Z" changeset="49172655" uid="188429" user="gpstracks">
+    <tag k="emergency" v="assembly_point"/>
+    <tag k="name" v="Parcheggio Duomo"/>
+    <tag k="operator" v="Comune di Gemona del Friuli"/>
+    <tag k="ref" v="13"/>
+  </node>
+  <node id="4890297230" lat="46.2865349" lon="13.1120358" version="1" timestamp="2017-06-01T17:52:27Z" changeset="49172655" uid="188429" user="gpstracks">
+    <tag k="emergency" v="assembly_point"/>
+    <tag k="name" v="Parcheggio Osteria Da Rico"/>
+    <tag k="operator" v="Comune di Gemona del Friuli"/>
+    <tag k="ref" v="10"/>
+  </node>
+  <node id="4890297246" lat="46.2977576" lon="13.1190658" version="1" timestamp="2017-06-01T17:52:28Z" changeset="49172655" uid="188429" user="gpstracks">
+    <tag k="emergency" v="assembly_point"/>
+    <tag k="name" v="Area Piazza Ospedaletto"/>
+    <tag k="operator" v="Comune di Gemona del Friuli"/>
+    <tag k="ref" v="4"/>
+  </node>
+  <node id="4890297247" lat="46.2990472" lon="13.1185180" version="1" timestamp="2017-06-01T17:52:28Z" changeset="49172655" uid="188429" user="gpstracks">
+    <tag k="emergency" v="assembly_point"/>
+    <tag k="name" v="Area laterale Scuola Elementare Ospedaletto"/>
+    <tag k="operator" v="Comune di Gemona del Friuli"/>
+    <tag k="ref" v="15"/>
+  </node>
+  <node id="4890297226" lat="46.2911968" lon="13.1396887" version="1" timestamp="2017-06-01T17:52:27Z" changeset="49172655" uid="188429" user="gpstracks">
+    <tag k="emergency" v="assembly_point"/>
+    <tag k="name" v="Centro ricreativo Sportivo l'Aser"/>
+    <tag k="operator" v="Comune di Gemona del Friuli"/>
+    <tag k="ref" v="14"/>
+  </node>
+  <node id="4890297233" lat="46.2857406" lon="13.1346072" version="1" timestamp="2017-06-01T17:52:28Z" changeset="49172655" uid="188429" user="gpstracks">
+    <tag k="emergency" v="assembly_point"/>
+    <tag k="name" v="Parcheggio Campo Sportivo Simonetti"/>
+    <tag k="operator" v="Comune di Gemona del Friuli"/>
+    <tag k="ref" v="7"/>
+  </node>
+  <node id="6402981402" lat="46.3555821" lon="13.2945153" version="1" timestamp="2019-04-13T20:36:37Z" changeset="69188010" uid="188429" user="gpstracks">
+    <tag k="emergency" v="assembly_point"/>
+  </node>
+  <node id="5859180470" lat="45.6774893" lon="13.4321675" version="1" timestamp="2018-08-26T15:32:37Z" changeset="62009452" uid="2360444" user="rikmede">
+    <tag k="emergency" v="assembly_point"/>
+  </node>
+  <way id="474045139" version="2" timestamp="2017-02-13T12:49:13Z" changeset="46046278" uid="361003" user="Cascafico">
+    <center lat="45.9759966" lon="13.4539766"/>
+    <nd ref="4680680067"/>
+    <nd ref="4680680068"/>
+    <nd ref="4680680069"/>
+    <nd ref="4683375125"/>
+    <nd ref="4683375126"/>
+    <nd ref="4680680070"/>
+    <nd ref="4680680067"/>
+    <tag k="emergency" v="assembly_point"/>
+    <tag k="landuse" v="meadow"/>
+  </way>
+
+</osm>
