@@ -1,0 +1,11 @@
+estrai addrs nel comune (p.es. Villesse):
+http://overpass-turbo.eu/s/14UI
+considera escludere amenities, shops ecc se delete_unmatched=True
+
+wget -O villesse.osm <url ottenuto con "raw data directly from Overpass API">
+
+operefine input dataset (postcode da Indice PA)
+
+conflate -i villesse-fabio.json  -v -c preview_villesse.json --osm villesse.osm profile.py 
+... audit process...
+conflate -i villesse-fabio.json -a audit_FVGupdate_villesse.json --osm  villesse.osm -o villesse-ready2import.osm profile.py 

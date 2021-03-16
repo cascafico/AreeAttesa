@@ -1,0 +1,340 @@
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column cod_istat",
+    "columnName": "cod_istat"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column time_data_",
+    "columnName": "time_data_"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column date_dat_2",
+    "columnName": "date_dat_2"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column time_dat_2",
+    "columnName": "time_dat_2"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column id_strada",
+    "columnName": "id_strada"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column id1 using expression value.toNumber()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "id1",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column num_civ using expression value.toNumber()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "num_civ",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column x using expression value.toNumber()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "x",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column y using expression value.toNumber()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "y",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column specie using expression value.toTitlecase()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "specie",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column nome_comun using expression value.toTitlecase()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "nome_comun",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column denominazi using expression value.toTitlecase()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "denominazi",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column denominazi using expression grel:value.replace(\" Di \", \" di \").replace(\" Del \", \" del \").replace(\" Dei \", \" dei \").replace(\" Dell'\", \" dell'\").replace(\" Della\", \" della\").replace(\" Delle \", \" delle \").replace(\" Degli\", \" degli\").replace(\" E \", \" e \").replace(\" A \", \" a \").replace(\" Nei \", \" nei \").replace(\" Nel \", \" nel \").replace(\" Sui \", \" sui \").replace(\" Sul \", \" sul \").replace(\" Dal \", \" dal \").replace(\" Dai \", \" dai \").replace(\" A \", \" a \").replace(\" Ai \", \" ai \").replace(\" Alle \", \" alle \").replace(\" Agli \", \" agli \").replace(\" Al \", \" al \")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "denominazi",
+    "expression": "grel:value.replace(\" Di \", \" di \").replace(\" Del \", \" del \").replace(\" Dei \", \" dei \").replace(\" Dell'\", \" dell'\").replace(\" Della\", \" della\").replace(\" Delle \", \" delle \").replace(\" Degli\", \" degli\").replace(\" E \", \" e \").replace(\" A \", \" a \").replace(\" Nei \", \" nei \").replace(\" Nel \", \" nel \").replace(\" Sui \", \" sui \").replace(\" Sul \", \" sul \").replace(\" Dal \", \" dal \").replace(\" Dai \", \" dai \").replace(\" A \", \" a \").replace(\" Ai \", \" ai \").replace(\" Alle \", \" alle \").replace(\" Agli \", \" agli \").replace(\" Al \", \" al \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column barrato using expression grel:replace(value, /([0-9]+)/, '/$1')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "barrato",
+    "expression": "grel:replace(value, /([0-9]+)/, '/$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column barrato using expression value.toLowercase()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "barrato",
+    "expression": "value.toLowercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column num_civ using expression value.toString()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "num_civ",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column num_civ using expression grel:replace(value, /([0-9]+).0/, '$1')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "num_civ",
+    "expression": "grel:replace(value, /([0-9]+).0/, '$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column barrato",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "barrato",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": true,
+        "fromError": false,
+        "from": [
+          ""
+        ],
+        "to": " "
+      }
+    ]
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column civicointero at index 7 based on column num_civ using expression grel:value+cells[\"barrato\"].value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "newColumnName": "civicointero",
+    "columnInsertIndex": 7,
+    "baseColumnName": "num_civ",
+    "expression": "grel:value+cells[\"barrato\"].value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column civicointero using expression value.trim()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "civicointero",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column id1 using expression value.toString()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "id1",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column id1 using expression grel:replace(value, /([0-9]+).0/, '$1')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "id1",
+    "expression": "grel:replace(value, /([0-9]+).0/, '$1')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column id1 using expression value.toNumber()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "id1",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column denominazi using expression grel:value.replace(\"Di \", \"di \").replace(\"Del \", \"del \").replace(\"Dei \", \"dei \").replace(\"Dell'\", \"dell'\").replace(\"Della \", \"della \").replace(\"Delle \", \" delle \").replace(\"Degli \", \"degli \").replace(\"E \", \"e \").replace(\"A \", \"a \").replace(\"Nei \", \"nei \").replace(\"Nel \", \"nel \").replace(\"Sui \", \"sui \").replace(\"Sul \", \"sul \").replace(\"Dal \", \"dal \").replace(\"Dai \", \"dai \").replace(\"A \", \"a \").replace(\"Ai \", \"ai \").replace(\"Alle \", \"alle \").replace(\"Agli \", \"agli \").replace(\"Al \", \"al \")",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "nome_comun",
+          "expression": "value",
+          "columnName": "nome_comun",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Moimacco",
+                "l": "Moimacco"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "denominazi",
+    "expression": "grel:value.replace(\"Di \", \"di \").replace(\"Del \", \"del \").replace(\"Dei \", \"dei \").replace(\"Dell'\", \"dell'\").replace(\"Della \", \"della \").replace(\"Delle \", \" delle \").replace(\"Degli \", \"degli \").replace(\"E \", \"e \").replace(\"A \", \"a \").replace(\"Nei \", \"nei \").replace(\"Nel \", \"nel \").replace(\"Sui \", \"sui \").replace(\"Sul \", \"sul \").replace(\"Dal \", \"dal \").replace(\"Dai \", \"dai \").replace(\"A \", \"a \").replace(\"Ai \", \"ai \").replace(\"Alle \", \"alle \").replace(\"Agli \", \"agli \").replace(\"Al \", \"al \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column denominazi using expression grel:value.replace(\"Di \", \"di \").replace(\"Del \", \"del \").replace(\"Dei \", \"dei \").replace(\"Dell'\", \"dell'\").replace(\"Della \", \"della \").replace(\"Delle \", \" delle \").replace(\"Degli \", \"degli \").replace(\"E \", \"e \").replace(\"A \", \"a \").replace(\"Nei \", \"nei \").replace(\"Nel \", \"nel \").replace(\"Sui \", \"sui \").replace(\"Sul \", \"sul \").replace(\"Dal \", \"dal \").replace(\"Dai \", \"dai \").replace(\"A \", \"a \").replace(\"Ai \", \"ai \").replace(\"Alle \", \"alle \").replace(\"Agli \", \"agli \").replace(\"Al \", \"al \")",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "nome_comun",
+          "expression": "value",
+          "columnName": "nome_comun",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Premariacco",
+                "l": "Premariacco"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "denominazi",
+    "expression": "grel:value.replace(\"Di \", \"di \").replace(\"Del \", \"del \").replace(\"Dei \", \"dei \").replace(\"Dell'\", \"dell'\").replace(\"Della \", \"della \").replace(\"Delle \", \" delle \").replace(\"Degli \", \"degli \").replace(\"E \", \"e \").replace(\"A \", \"a \").replace(\"Nei \", \"nei \").replace(\"Nel \", \"nel \").replace(\"Sui \", \"sui \").replace(\"Sul \", \"sul \").replace(\"Dal \", \"dal \").replace(\"Dai \", \"dai \").replace(\"A \", \"a \").replace(\"Ai \", \"ai \").replace(\"Alle \", \"alle \").replace(\"Agli \", \"agli \").replace(\"Al \", \"al \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  }
+]

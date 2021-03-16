@@ -1,0 +1,14 @@
+# valido per aggiornamenti Fabio 
+
+
+    {
+      "id"  : {{(cells["id"].value)}},
+      "lat" : {{(cells["Y"].value)}},
+      "lon" : {{(cells["X"].value)}},
+      "tags" : {
+               "addr:city" : {{jsonize(cells["COMUNE_OSM"].value)}},
+               "addr:street" : {{jsonize(cells["VIA_OSM"].value)}},
+               "addr:housenumber" : {{jsonize(cells["CIV_OSM"].value)}},
+               "addr:postcode" : {{jsonize(cells["CAP"].value)}}
+               }
+    }
