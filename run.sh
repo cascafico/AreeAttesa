@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 if [ $# -eq 0 ]
    then
      echo "...blablas"
@@ -12,7 +11,6 @@ if [ -z "$2" ]
     echo "blablas"
 #   exit
 fi    
-
 
 if [[ "$1" =~ ^[0-9]+$ ]] ; then 
    echo "blabla"
